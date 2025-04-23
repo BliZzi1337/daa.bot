@@ -1,0 +1,902 @@
+[
+    {
+        "frage": "Was ist das Minimalprinzip?",
+        "antworten": [
+            "Mit möglichst wenig Input ein Ziel erreichen",
+            "Ein Ziel in möglichst kurzer Zeit erreichen",
+            "Alle Ressourcen optimal nutzen",
+            "Mit minimalem Output maximalen Input erzeugen"
+        ],
+        "richtig": 0,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was beschreibt ein Betrieb?",
+        "antworten": [
+            "Eine staatliche Behörde",
+            "Eine wirtschaftlich-technische Organisationseinheit",
+            "Ein Handelsunternehmen",
+            "Ein Zusammenschluss von Lieferanten"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was bedeutet ROI?",
+        "antworten": [
+            "Return On Investment",
+            "Return Of Interest",
+            "Rate Of Increase",
+            "Review Of Income"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Welche Kostenart zählt zu den variablen Kosten?",
+        "antworten": [
+            "Miete",
+            "Materialkosten",
+            "Versicherungen",
+            "Grundgebühren"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist eine GbR?",
+        "antworten": [
+            "Gesellschaft mit beschränkter Haftung",
+            "Gesellschaft bürgerlichen Rechts",
+            "Gesellschaft beruflicher Regelung",
+            "Gesellschaft besonderer Rechtsform"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist kein Merkmal einer Aktiengesellschaft (AG)?",
+        "antworten": [
+            "Mindestkapital von 50.000€",
+            "Persönliche Haftung der Aktionäre",
+            "Börsennotierung möglich",
+            "Vorstand und Aufsichtsrat erforderlich"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist das Maximalprinzip?",
+        "antworten": [
+            "Mit gegebenem Input maximalen Output erreichen",
+            "Maximale Kosten verursachen",
+            "Maximalen Gewinn ohne Rücksicht auf Verluste",
+            "Maximale Arbeitszeit bei minimalem Lohn"
+        ],
+        "richtig": 0,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was kennzeichnet eine OHG?",
+        "antworten": [
+            "Beschränkte Haftung",
+            "Keine persönliche Haftung",
+            "Unbeschränkte Haftung aller Gesellschafter",
+            "Haftung nur mit Einlage"
+        ],
+        "richtig": 2,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist eine Break-Even-Analyse?",
+        "antworten": [
+            "Analyse der Gewinnzone",
+            "Analyse der Verlustzone",
+            "Bestimmung des Gewinnschwellenpunkts",
+            "Bestimmung des maximalen Verlusts"
+        ],
+        "richtig": 2,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist keine Aufgabe des Controllings?",
+        "antworten": [
+            "Planung",
+            "Kontrolle",
+            "Steuerung",
+            "Produktion"
+        ],
+        "richtig": 3,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist ein Betriebssystem?",
+        "antworten": [
+            "Ein Textprogramm",
+            "Ein Hardware-Bauteil",
+            "Eine Vermittlungsinstanz zwischen Hard- und Software",
+            "Ein Antivirusprogramm"
+        ],
+        "richtig": 2,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Welche Aufgabe hat das BIOS?",
+        "antworten": [
+            "Sichert Benutzerdaten",
+            "Startet das Betriebssystem",
+            "Installiert Programme",
+            "Verwaltet Netzwerke"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist der Unterschied zwischen Hub und Switch?",
+        "antworten": [
+            "Ein Hub ist intelligenter als ein Switch",
+            "Ein Switch leitet Daten gezielt weiter, ein Hub an alle Ports",
+            "Ein Hub ist schneller als ein Switch",
+            "Es gibt keinen Unterschied"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist IPv6?",
+        "antworten": [
+            "Ein Netzwerkprotokoll der Schicht 2",
+            "Der Nachfolger von IPv4 mit längeren Adressen",
+            "Ein Verschlüsselungsprotokoll",
+            "Ein E-Mail-Protokoll"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist ein DNS-Server?",
+        "antworten": [
+            "Ein Dateiserver",
+            "Ein Server zur Namensauflösung",
+            "Ein Mailserver",
+            "Ein Webserver"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was bedeutet DHCP?",
+        "antworten": [
+            "Dynamic Host Configuration Protocol",
+            "Domain Host Control Protocol",
+            "Digital Host Communication Protocol",
+            "Direct Host Control Protocol"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Welches Netzwerkkabel bietet die höchste Übertragungsrate?",
+        "antworten": [
+            "Cat5e",
+            "Cat6",
+            "Cat7",
+            "Cat8"
+        ],
+        "richtig": 3,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist kein RAID-Level?",
+        "antworten": [
+            "RAID 0",
+            "RAID 1",
+            "RAID 5",
+            "RAID 7"
+        ],
+        "richtig": 3,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist ein Gateway?",
+        "antworten": [
+            "Ein Vermittler zwischen logischen Netzwerken",
+            "Ein Backup-Server",
+            "Ein Virenschutz",
+            "Ein Dateiserver"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Welches Protokoll wird für sichere Webverbindungen verwendet?",
+        "antworten": [
+            "HTTP",
+            "FTP",
+            "HTTPS",
+            "SMTP"
+        ],
+        "richtig": 2,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist eine Datenbank?",
+        "antworten": [
+            "Eine Sammlung von Dateien",
+            "Ein strukturierter Datenspeicher",
+            "Ein Backup-System",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Primärschlüssel?",
+        "antworten": [
+            "Der wichtigste Datensatz",
+            "Ein Passwort",
+            "Ein eindeutiger Identifikator",
+            "Eine Verschlüsselung"
+        ],
+        "richtig": 2,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was bedeutet ACID?",
+        "antworten": [
+            "Atomicity, Consistency, Isolation, Durability",
+            "Access, Control, Input, Data",
+            "Automatic, Connected, Integrated, Database",
+            "Admin, Control, Input, Delete"
+        ],
+        "richtig": 0,
+        "punkte": 3,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist eine Normalisierung?",
+        "antworten": [
+            "Datenkomprimierung",
+            "Datenbereinigung",
+            "Strukturierung von Datenbanken",
+            "Datenverschlüsselung"
+        ],
+        "richtig": 2,
+        "punkte": 3,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Index in einer Datenbank?",
+        "antworten": [
+            "Eine Tabelle",
+            "Eine Hilfsdatenstruktur zur schnelleren Suche",
+            "Ein Backup",
+            "Ein Fremdschlüssel"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein JOIN?",
+        "antworten": [
+            "Eine Datenbankoperation zum Verbinden von Tabellen",
+            "Ein Datentyp",
+            "Eine Backup-Methode",
+            "Ein Sicherheitsprotokoll"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Trigger?",
+        "antworten": [
+            "Ein Virus",
+            "Ein automatisch ausgeführter Code bei bestimmten Ereignissen",
+            "Ein Datentyp",
+            "Eine Tabelle"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist eine Stored Procedure?",
+        "antworten": [
+            "Ein gespeicherter Datensatz",
+            "Eine Sicherungskopie",
+            "Ein vorcompiliertes SQL-Skript",
+            "Ein Datentyp"
+        ],
+        "richtig": 2,
+        "punkte": 3,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein View?",
+        "antworten": [
+            "Eine virtuelle Tabelle",
+            "Ein Backup",
+            "Ein Index",
+            "Ein Trigger"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist eine Transaktion?",
+        "antworten": [
+            "Ein Datensatz",
+            "Eine atomare Einheit von Datenbankoperationen",
+            "Ein Backup",
+            "Ein Index"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Virus?",
+        "antworten": [
+            "Ein Programmierfehler",
+            "Schadcode, der sich an andere Dateien anhängt",
+            "Ein Netzwerkprotokoll",
+            "Ein Betriebssystem"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist eine Firewall?",
+        "antworten": [
+            "Ein Antivirenprogramm",
+            "Eine Brandschutztür",
+            "Ein Netzwerkfilter",
+            "Ein Backup-System"
+        ],
+        "richtig": 2,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Backup?",
+        "antworten": [
+            "Eine Sicherheitskopie von Daten",
+            "Ein Virenschutz",
+            "Eine Firewall",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist Phishing?",
+        "antworten": [
+            "Ein Computerspiel",
+            "Eine Angriffsart zur Datenerschleichung",
+            "Ein Backup-System",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein SSL-Zertifikat?",
+        "antworten": [
+            "Ein Virenschutz",
+            "Eine digitale Identitätsbestätigung",
+            "Ein Backup",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist eine Zwei-Faktor-Authentifizierung?",
+        "antworten": [
+            "Ein doppeltes Passwort",
+            "Eine Authentifizierung mit zwei verschiedenen Merkmalen",
+            "Ein Backup-System",
+            "Ein Virenschutz"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Trojaner?",
+        "antworten": [
+            "Ein Antivirenprogramm",
+            "Ein als nützlich getarntes Schadprogramm",
+            "Ein Backup-System",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist eine DMZ?",
+        "antworten": [
+            "Ein Backup-System",
+            "Eine demilitarisierte Zone im Netzwerk",
+            "Ein Virenschutz",
+            "Ein Netzwerkprotokoll"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist Social Engineering?",
+        "antworten": [
+            "Ein soziales Netzwerk",
+            "Eine Manipulation von Menschen",
+            "Ein Backup-System",
+            "Ein Virenschutz"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist Encryption at Rest?",
+        "antworten": [
+            "Verschlüsselung während der Übertragung",
+            "Verschlüsselung gespeicherter Daten",
+            "Ein Backup-System",
+            "Ein Virenschutz"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ITIL?",
+        "antworten": [
+            "Ein Programmierframework",
+            "Eine Sammlung von Best Practices für IT-Service-Management",
+            "Ein Sicherheitsprotokoll",
+            "Ein Betriebssystem"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Service Level Agreement (SLA)?",
+        "antworten": [
+            "Ein Wartungsvertrag",
+            "Eine Vereinbarung über die Qualität einer Dienstleistung",
+            "Ein Sicherheitskonzept",
+            "Ein Projektplan"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was bedeutet First Level Support?",
+        "antworten": [
+            "Erste Anlaufstelle für Benutzeranfragen",
+            "Hochqualifizierte Experten",
+            "Entwicklungsabteilung",
+            "Management-Ebene"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Incident?",
+        "antworten": [
+            "Ein geplantes Update",
+            "Eine ungeplante Störung oder Unterbrechung",
+            "Ein Backup",
+            "Eine Schulung"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Problem im ITIL-Kontext?",
+        "antworten": [
+            "Ein einzelner Incident",
+            "Die unbekannte Ursache eines oder mehrerer Incidents",
+            "Ein Backup-Fehler",
+            "Ein Virus"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist Change Management?",
+        "antworten": [
+            "Backup-Verwaltung",
+            "Verwaltung von Änderungen an IT-Systemen",
+            "Benutzerverwaltung",
+            "Virenschutz"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Service Desk?",
+        "antworten": [
+            "Ein Schreibtisch",
+            "Die zentrale Anlaufstelle für IT-Dienste",
+            "Ein Backup-System",
+            "Ein Meetingraum"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist Release Management?",
+        "antworten": [
+            "Verwaltung von Entlassungen",
+            "Planung und Steuerung von Software-Releases",
+            "Backup-Verwaltung",
+            "Benutzerverwaltung"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Known Error?",
+        "antworten": [
+            "Ein unbekannter Fehler",
+            "Ein dokumentierter Fehler mit bekannter Ursache",
+            "Ein Backup-Fehler",
+            "Ein Virus"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist Configuration Management?",
+        "antworten": [
+            "Benutzerverwaltung",
+            "Verwaltung von IT-Komponenten und deren Beziehungen",
+            "Backup-Verwaltung",
+            "Virenschutz"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Organigramm?",
+        "antworten": [
+            "Ein Diagramm zur Darstellung der Organisationsstruktur",
+            "Ein Programmablaufplan",
+            "Eine Projektmanagement-Software",
+            "Ein Qualitätsmanagement-Tool"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was bedeutet Lean Management?",
+        "antworten": [
+            "Maximale Ressourcennutzung",
+            "Vermeidung von Verschwendung in Prozessen",
+            "Personalabbau",
+            "Kostenintensive Prozessoptimierung"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist eine Balanced Scorecard?",
+        "antworten": [
+            "Eine Buchhaltungssoftware",
+            "Ein Instrument zur ausgewogenen Unternehmenssteuerung",
+            "Ein Marketingkonzept",
+            "Ein Personalverwaltungssystem"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was bedeutet ABC-Analyse?",
+        "antworten": [
+            "Alphabetische Sortierung",
+            "Analyse nach Wichtigkeit und Wertigkeit",
+            "Automatische Buchungscontrolle",
+            "Ablaufdiagramm-Analyse"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist ein Lastenheft?",
+        "antworten": [
+            "Eine Auflistung von Serverlasten",
+            "Dokumentation der Kundenanforderungen",
+            "Ein Entwicklerhandbuch",
+            "Eine Fehlerdokumentation"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF1"
+    },
+    {
+        "frage": "Was ist ein MAC-Filter?",
+        "antworten": [
+            "Ein Apple-Computerprogramm",
+            "Ein Filter für physische Netzwerkadressen",
+            "Ein Email-Filter",
+            "Ein Antivirenprogramm"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist ein Proxy-Server?",
+        "antworten": [
+            "Ein Vermittlungsserver zwischen Client und Internet",
+            "Ein Backup-Server",
+            "Ein Datenbankserver",
+            "Ein Gameserver"
+        ],
+        "richtig": 0,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was bedeutet VLAN?",
+        "antworten": [
+            "Very Large Area Network",
+            "Virtual Local Area Network",
+            "Visual LAN",
+            "Variable LAN"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist ein Patch-Panel?",
+        "antworten": [
+            "Ein Software-Update",
+            "Eine Verteilungseinheit für Netzwerkkabel",
+            "Ein Virenschutz",
+            "Ein Router"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist Subnetting?",
+        "antworten": [
+            "Unterteilung eines Netzwerks in kleinere Teilnetze",
+            "Installation eines Subwoofers",
+            "Einrichten einer Subdomain",
+            "Erstellen von Unterordnern"
+        ],
+        "richtig": 0,
+        "punkte": 3,
+        "lernfeld": "LF2"
+    },
+    {
+        "frage": "Was ist eine Stored Function?",
+        "antworten": [
+            "Eine gespeicherte Datei",
+            "Eine in der Datenbank gespeicherte Funktion",
+            "Ein Backup",
+            "Ein Datentyp"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was bedeutet ACID in Bezug auf Datenbanktransaktionen?",
+        "antworten": [
+            "Atomarität, Konsistenz, Isolation, Dauerhaftigkeit",
+            "Automatisch, Chronologisch, Isoliert, Definiert",
+            "Asynchron, Consistent, Integrated, Distributed",
+            "Advanced Computer Information Database"
+        ],
+        "richtig": 0,
+        "punkte": 3,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Deadlock?",
+        "antworten": [
+            "Ein Computervirus",
+            "Eine Verklemmung durch gegenseitige Blockierung",
+            "Ein gelöschter Datensatz",
+            "Ein Netzwerkfehler"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist Data Mining?",
+        "antworten": [
+            "Datenlöschung",
+            "Systematische Auswertung von Datenbeständen",
+            "Datenwiederherstellung",
+            "Datenkomprimierung"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist ein Entity-Relationship-Modell?",
+        "antworten": [
+            "Ein Geschäftsmodell",
+            "Ein Modell zur Darstellung von Datenstrukturen",
+            "Ein Netzwerkprotokoll",
+            "Ein Projektmanagement-Tool"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF3"
+    },
+    {
+        "frage": "Was ist eine Risikoanalyse?",
+        "antworten": [
+            "Analyse von Computerviren",
+            "Systematische Erfassung und Bewertung von Risiken",
+            "Ein Backup-System",
+            "Ein Netzwerk-Scan"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Penetrationstest?",
+        "antworten": [
+            "Ein Hardware-Test",
+            "Ein gezielter Hackerangriff zur Schwachstellenerkennung",
+            "Ein Virenscan",
+            "Ein Speichertest"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist die DSGVO?",
+        "antworten": [
+            "Ein Antivirenprogramm",
+            "Die Datenschutz-Grundverordnung",
+            "Ein Datenübertragungsprotokoll",
+            "Ein Backup-System"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Vulnerability Scanner?",
+        "antworten": [
+            "Ein Virenschutz",
+            "Ein Werkzeug zur Erkennung von Sicherheitslücken",
+            "Ein Backup-Tool",
+            "Ein Netzwerk-Monitor"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Security Token?",
+        "antworten": [
+            "Ein Passwort",
+            "Ein physisches oder digitales Authentifizierungsgerät",
+            "Ein Virenschutz",
+            "Eine Firewall"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF4"
+    },
+    {
+        "frage": "Was ist ein Ticket-System?",
+        "antworten": [
+            "Ein Eintrittskartensystem",
+            "Ein System zur Verwaltung von Support-Anfragen",
+            "Ein Zeiterfassungssystem",
+            "Ein Abrechnungssystem"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was bedeutet Eskalationsmanagement?",
+        "antworten": [
+            "Konfliktförderung",
+            "Systematischer Umgang mit sich verschärfenden Problemen",
+            "Personalmanagement",
+            "Projektmanagement"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist Remote Support?",
+        "antworten": [
+            "Ein Vor-Ort-Service",
+            "Fernwartung und -unterstützung",
+            "Ein Backup-System",
+            "Ein Monitoring-Tool"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was ist ein Knowledge Base System?",
+        "antworten": [
+            "Ein Lexikon",
+            "Eine Wissensdatenbank für Support und Problemlösungen",
+            "Ein Schulungssystem",
+            "Ein Dokumentenmanagementsystem"
+        ],
+        "richtig": 1,
+        "punkte": 2,
+        "lernfeld": "LF5"
+    },
+    {
+        "frage": "Was bedeutet SLA-Monitoring?",
+        "antworten": [
+            "Server-Log-Analyse",
+            "Überwachung der vereinbarten Service-Levels",
+            "System-Leistungs-Analyse",
+            "Software-Lizenz-Auswertung"
+        ],
+        "richtig": 1,
+        "punkte": 3,
+        "lernfeld": "LF5"
+    }
+]
