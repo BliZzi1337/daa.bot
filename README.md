@@ -19,7 +19,7 @@ Bietet eine Vielzahl an Automatisierungen, Tools und Admin-Features – von inte
 | 🔣 `/convert`           | Binär-, Dezimal- und Hex-Umwandlungen mit Erklärungen |
 | ⚡ `/usv`               | USV-Kalkulation mit Eingabemasken & Formelunterstützung |
 | 🔁 `/verschieben`       | Admin-Command zum Channelwechsel aller Mitglieder |
-| 🎡 `/wheel`             | Zufallsrad zur Entscheidungsfindung |
+| 🎡 `/rad`             | Zufallsrad zur Entscheidungsfindung |
 | 🧠 `/quiz`              | Interaktives Lernfeld-Quiz mit UI (Dropdowns & Buttons) |
 | 🛠️ `!move`              | Manuelles Verschieben mit Admin-Check |
 | ⏰ **Auto-Move**         | Automatische Voice-Verschiebung (Di–Fr, 11:15 Uhr) |
