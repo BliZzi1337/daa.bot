@@ -34,7 +34,8 @@ async def on_ready():
 
     try:
         # Guild Commands für DAA Server synchronisieren
-        guild = discord.Object(id=1107964583928418324)
+        guild_id = int(os.getenv("GUILD_ID", "0"))
+        guild = discord.Object(id=guild_id)
         bot.tree.copy_global_to(guild=guild)
         guild_sync = await bot.tree.sync(guild=guild)
 
@@ -239,6 +240,7 @@ async def main():
     app.router.add_get('/', health_handler)
     app.router.add_get('/ws', bot.websocket_handler.handle_connection)
     app.router.add_static('/templates', 'templates')
+    app.router.add_static('/static', 'static')
     app.router.add_get('/{code}', redirect_handler)
     print("✅ Routen erfolgreich konfiguriert")
 

@@ -1,3 +1,4 @@
+
 import discord
 from discord.ext import commands, tasks
 import re
@@ -13,28 +14,17 @@ class AutoVoice(commands.Cog):
         self.config = self.load_config()
 
     def load_config(self):
-        try:
-            with open('data/voice_config.json', 'r') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            default_config = {
-                "default": {
-                    "category_id": 1359066030609006602,
-                    "log_channel_id": 1354030930892816414,
-                    "base_channel_name": "🔊︱Talk #1",
-                    "private_base_channel_name": "👥︱Unter vier Augen #1",
-                    "channel_prefix": "🔊︱Talk #",
-                    "private_channel_prefix": "👥︱Unter vier Augen #"
-                }
-            }
-            with open('data/voice_config.json', 'w') as f:
-                json.dump(default_config, f, indent=4)
-            return default_config
+        config_path = 'data/voice_config.json'
+        if not os.path.isfile(config_path):
+            raise FileNotFoundError(f"🚫 voice_config.json nicht gefunden unter: {config_path}")
+        with open(config_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
 
     def get_server_config(self, guild_id):
         str_guild_id = str(guild_id)
         if str_guild_id in self.config:
             return self.config[str_guild_id]
+        print(f"⚠️ Konfiguration für Server {guild_id} nicht gefunden. Fallback auf 'default'.")
         return self.config["default"]
 
     @commands.Cog.listener()
@@ -45,15 +35,12 @@ class AutoVoice(commands.Cog):
         guild = member.guild
         config = self.get_server_config(guild.id)
 
-        # Track mute status changes and channel changes
         if before and after:
             if before.channel != after.channel or before.self_mute != after.self_mute:
-                # Force immediate WebSocket update
                 voice_users = []
                 for g in self.bot.guilds:
                     for vc in g.voice_channels:
                         for m in vc.members:
-                            # Prüfe den tatsächlichen Sprechstatus
                             is_speaking = False
                             if m.voice and hasattr(m.voice, 'speaking'):
                                 is_speaking = bool(m.voice.speaking)
@@ -65,17 +52,13 @@ class AutoVoice(commands.Cog):
                                 'is_muted': m.voice.self_mute,
                                 'is_speaking': is_speaking
                             })
-                
-                # Broadcast to all connected websockets through websocket handler
                 if hasattr(self.bot, 'websocket_handler'):
                     await self.bot.websocket_handler.broadcast({'voice_users': voice_users})
 
-        # Handle channel joins and leaves
         if after.channel:
             if after.channel.name.startswith(config["channel_prefix"]) or after.channel.name.startswith(config["private_channel_prefix"]):
                 is_private = after.channel.name.startswith(config["private_channel_prefix"])
                 await self.manage_channels(guild, is_private)
-                # Nur Join loggen wenn der User nicht von einem anderen Channel kommt
                 if not before.channel:
                     await self.send_log(
                         guild,
@@ -173,6 +156,12 @@ class AutoVoice(commands.Cog):
     @cleanup_channels.before_loop
     async def before_cleanup(self):
         await self.bot.wait_until_ready()
+
+    @commands.command(name="voice_config")
+    async def voice_config(self, ctx):
+        config = self.get_server_config(ctx.guild.id)
+        pretty = json.dumps(config, indent=4, ensure_ascii=False)
+        await ctx.send(f"📁 Aktive Konfiguration für diesen Server:\n```json\n{pretty}```")
 
 async def setup(bot):
     await bot.add_cog(AutoVoice(bot))

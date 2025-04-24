@@ -10,7 +10,6 @@ load_dotenv()
 # Admin-Rollen-ID und Guild-ID aus der .env-Datei holen
 # Mehrere Admin-Rollen-IDs aus der .env laden
 ADMIN_ROLE_IDS = [int(role_id.strip()) for role_id in os.getenv("ADMIN_ROLE_IDS", "").split(",")]
-GUILD_ID = 1107964583928418324  # DAA Server
 
 class MoveAnywhere(commands.Cog):
     def __init__(self, bot: commands.Bot):

@@ -24,7 +24,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    padding: 20px;
+    padding: 60px;
     background: var(--bg-color);
     color: var(--text-color);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,45 +82,63 @@ body[data-theme="light"]::before {
     .main-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .container {
         padding: 10px;
     }
-    
+
     .status {
         width: 100% !important;
         margin: 10px 0;
         padding: 15px;
     }
-    
+
     .features-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .header {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         padding: 10px;
+        gap: 10px;
     }
-    
+
+    .header-title {
+        font-size: 1.2em;
+        flex: 1 1 auto;
+    }
+
     .header-buttons {
-        width: 100%;
-        justify-content: center;
+        width: auto;
+        display: flex;
+        justify-content: flex-end;
+        flex: 0 0 auto;
     }
-    
+
     .theme-toggle {
         width: auto !important;
+        padding: 6px 12px;
+        font-size: 13px;
     }
-    
-    body {
-        margin: 60px auto 10px;
-        padding: 10px;
-    }
-    
+
     .user-card {
-        min-width: auto;
+        min-width: unset;
         width: 100%;
         font-size: 14px;
+    }
+
+    .quiz-card {
+        min-width: unset;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    body {
+        margin: 48px auto 10px;
+        padding: 10px;
     }
 }
 
@@ -316,8 +334,9 @@ body[data-theme="light"]::before {
     top: 0;
     left: 0;
     right: 0;
+    height: 48px; /* feste Höhe für einen schmalen Header */
     background: rgba(35, 39, 42, 0.8);
-    padding: 15px 30px;
+    padding: 0 20px; /* weniger Padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -402,3 +421,54 @@ body[data-theme="light"]::before {
 .theme-toggle:hover .github-icon {
     transform: scale(1.1);
 }
+/* Theme Toggle Switch Styles */
+#theme-toggle-button {
+  width: 4em;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#theme-toggle-button svg {
+  width: 120px;
+}
+
+#toggle {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#container,
+#patches,
+#stars,
+#button,
+#sun,
+#moon,
+#cloud {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.25s;
+}
+
+#toggle:checked + svg #container {
+  fill: #2b4360;
+}
+
+#toggle:checked + svg #button {
+  transform: translate(28px, 2.333px);
+}
+
+#sun { opacity: 1; }
+#toggle:checked + svg #sun { opacity: 0; }
+
+#moon { opacity: 0; }
+#toggle:checked + svg #moon { opacity: 1; }
+
+#cloud { opacity: 1; }
+#toggle:checked + svg #cloud { opacity: 0; }
+
+#stars { opacity: 0; }
+#toggle:checked + svg #stars { opacity: 1; }
